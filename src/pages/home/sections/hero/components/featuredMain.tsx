@@ -1,4 +1,4 @@
-const FeaturedMain = () => {
+const FeaturedMain: React.FC = () => {
   return (
     <div className='relative group overflow-hidden bg-no-repeat h-full w-full flex flex-col justify-center'>
       <div className='ml-8 text-white z-10'>

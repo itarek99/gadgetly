@@ -2,7 +2,7 @@ import FeaturedMain from './components/featuredMain';
 import FeaturedSecondary from './components/featuredSecondary';
 import HeroNav from './components/heroNav';
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <section className='container mx-auto mt-3 px-2'>
       <div className='grid grid-cols-12 gap-3'>

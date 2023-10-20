@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 
-interface props {
+interface FeaturedSecondaryProps {
   imageUrl: string;
   title: JSX.Element;
   subTitle: string;
   link?: string;
 }
-const FeaturedSecondary = ({ imageUrl, title, subTitle, link }: props) => {
+const FeaturedSecondary: React.FC<FeaturedSecondaryProps> = ({ imageUrl, title, subTitle, link }) => {
   return (
     <div className='relative group overflow-hidden bg-no-repeat h-full w-full flex flex-col justify-stretch'>
       <div className='text-white z-10 flex flex-col justify-between h-full p-8'>

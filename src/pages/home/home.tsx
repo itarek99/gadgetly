@@ -1,6 +1,6 @@
 import Hero from './sections/hero/hero';
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <main>
       <Hero />

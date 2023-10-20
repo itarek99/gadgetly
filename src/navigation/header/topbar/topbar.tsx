@@ -1,6 +1,6 @@
 import { HeartIcon, MagnifyingGlassIcon, ShoppingBagIcon, UserCircleIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
-const Topbar = () => {
+const Topbar: React.FC = () => {
   return (
     <div className='bg-dark'>
       <div className='container mx-auto'>

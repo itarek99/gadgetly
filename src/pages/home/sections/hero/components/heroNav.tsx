@@ -14,7 +14,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
 
-const HeroNav = () => {
+const HeroNav: React.FC = () => {
   const categories = [
     {
       title: 'Smartphone',
