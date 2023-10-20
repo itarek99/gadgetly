@@ -9,7 +9,7 @@ const FeaturedMain = () => {
 
         <button className='text-black bg-white px-6 py-2.5 rounded-full font-medium mt-5'>Shop Now</button>
       </div>
-      <div className='absolute h-full'>
+      <div className='absolute h-full w-full'>
         <img
           className='object-cover h-full w-full duration-500 ease-out group-hover:scale-105'
           src='https://minimog-4437.kxcdn.com/dexons/wp-content/uploads/sites/11/2023/07/bgr-banner-slide1.jpg'

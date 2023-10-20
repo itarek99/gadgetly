@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Topbar = () => {
   return (
     <div className='bg-dark'>
-      <div className='container mx-auto '>
+      <div className='container mx-auto'>
         <div className='flex justify-between items-center gap-8 py-6 px-2'>
           <Link className='text-3xl font-bold text-white' to='/'>
             <span>Gadgetly</span>
