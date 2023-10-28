@@ -6,6 +6,9 @@ interface FeaturedSecondaryProps {
   subTitle: string;
   link?: string;
 }
+
+// JIRA Testing
+
 const FeaturedSecondary: React.FC<FeaturedSecondaryProps> = ({ imageUrl, title, subTitle, link }) => {
   return (
     <div className='relative group overflow-hidden bg-no-repeat h-full w-full flex flex-col justify-stretch'>
