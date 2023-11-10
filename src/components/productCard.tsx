@@ -18,7 +18,7 @@ interface ProductProps {
 
 const ProductCard: React.FC<ProductProps> = ({ product }) => {
   return (
-    <div className='border border-gray-300 flex justify-between flex-col h-full'>
+    <div className='bg-white flex justify-between flex-col h-full'>
       <div>
         <img
           className='aspect-square object-cover'
