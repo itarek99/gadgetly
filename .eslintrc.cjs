@@ -34,6 +34,7 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
+    'no-console': 'error',
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'import/no-unresolved': 'off',
